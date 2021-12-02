@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+<link rel="stylesheet" href="css/aws.css">
+    <title>AWS</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark badge-info">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" id="titulo">
+                    <img src="img/logo1.png" alt="" id="img"> Ingenier&iacute;a en sistemas
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barra" aria-controls="barra" 
+                aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+ 
+         <div class="collapse navbar-collapse" id="barra">
+             <ul class="nav navbar-nav mr-auto col-md-2 ml-md-auto">
+                 <li class="nav-item">
+                     <a class="nav-link" href="index.html">Inicio</a>
+                 </li>
+                 <li class="nav-item active">
+                     <a class="nav-link" href="aws.html">AWS</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="#" onclick="abrir()">
+                     <span id="contacto">contacto</span></a>
+                 </li>
+             </ul>
+             <div class="modal" tabindex="-1" role="dialog" id="ventana">
+                 <div class="modal-dialog" role="document">
+                     <div class="modal-content">
+                         <div class="modal-header">
+                             <h3 class="modal-title"> Contacto</h3>
+                             <button type="button" class="close" data-dismiss="modal">
+                                 <span aria-hidden="true">&times;</span>
+                             </button>
+                         </div> 
+                         <div class="modal-body">
+                             <p><h3><b>Jason Slater Barreno D&iacute;az</b></h3></p>
+                             <p><h4>5390-18-3691</h4></p>
+                             <p><h4>Secci&oacute;n "A"</h4></p>
+                         </div>
+                         <div class="modal-footer">
+                             <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <script>
+                 function abrir() {
+                     $('#ventana').modal('show');
+                 }
+             </script>
+ 
+         </div>
+ 
+            </div>
+ 
+        </nav>
+    </header>
+    <div id="letra">
+        <h1 id="aws"><b>AWS</b></h1>
+    <div class="awslogo">
+        <img src="img/AWS.png" alt="" class="awsimg">
+    </div>
+    <div class="services">
+        <img src="img/servicios.png" alt="" class="servicios">
+    </div>
+        <p class="parrafoaws">
+            Amazon Web Services (AWS) es la plataforma en la nube más 
+            adoptada y completa en el mundo, que ofrece más de 200 
+            <br>
+            servicios integrales de centros de datos a nivel global.
+             Millones de clientes, incluso las empresas emergentes que 
+             crecen más rápido, las compañías más grandes y los organismos 
+             <br>gubernamentales líderes, están usando AWS para reducir los 
+             costos, aumentar su agilidad e innovar de forma más rápida.
+        </p>
+        
+    </div>
+    
+</body>
+</html>

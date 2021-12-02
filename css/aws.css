@@ -1,8 +1,43 @@
 body{
-    background: url(../img/fondo1.jpg) no-repeat center center fixed;
+    background: url(../img/fondoaws.jpg) no-repeat center center fixed;
     background-size: cover;
 }
+/*pagina de aws*/
+#letra{
+    text-align: center;
+ }
+ .awsimg{
+     height: 275px;
+     width: 450px;
+ 
+ }
+ .awslogo{
+     margin-right:600px;
+ }
+ .services{
+     margin:10px;
+     margin-right: 50px;
+     margin-left: 800px;
+     margin-top: -255px;
+ }
+ 
+ #aws{
+     font-family: 'Times New Roman', Times, serif;
+     color: black;
+     font-size: 80px;
+ 
+ }
+ .servicios{
+     height: 275px;
+     width: 450px;
+ 
+ }
 
+ .parrafoaws{
+     font-size: 25px;
+     color:snow;
+ }
+ 
 #img{
     width: 50px;
     height: 50px;
